@@ -1,0 +1,147 @@
+ .u-section-1 {
+  background-image: url("images/OIP5.jfif");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 1021px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 3.75rem;
+  text-transform: none;
+  font-weight: 700;
+  text-decoration: underline !important;
+  width: 841px;
+  margin: 122px auto 0;
+}
+
+.u-section-1 .u-form-1 {
+  height: 325px;
+  margin: 52px 161px 60px 124px;
+}
+
+.u-section-1 .u-form-group-1 {
+  width: 100%;
+}
+
+.u-section-1 .u-label-1 {
+  font-weight: 700;
+}
+
+.u-section-1 .u-form-group-2 {
+  width: 100%;
+}
+
+.u-section-1 .u-label-2 {
+  font-weight: 700;
+}
+
+.u-section-1 .u-form-group-3 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-label-3 {
+  font-weight: 700;
+}
+
+.u-section-1 .u-form-group-4 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-label-4 {
+  font-weight: 700;
+}
+
+.u-section-1 .u-form-group-5 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-label-5 {
+  font-weight: 700;
+}
+
+.u-section-1 .u-form-group-6 {
+  width: 100%;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  border-style: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 842px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-weight: 300;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-right: 61px;
+    margin-left: 24px;
+  }
+
+  .u-section-1 .u-form-group-3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .u-section-1 .u-form-group-4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .u-section-1 .u-form-group-5 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 645px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: 720px;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 484px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 305px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 2.25rem;
+    width: 340px;
+  }
+
+  .u-section-1 .u-form-group-3 {
+    width: 100%;
+  }
+
+  .u-section-1 .u-form-group-4 {
+    width: 100%;
+  }
+}

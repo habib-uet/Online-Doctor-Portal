@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="We are good">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Patient Profile Set</title>
+    <link rel="stylesheet" href="/static/nicepage.css" media="screen">
+<link rel="stylesheet" href="/static/Patient-Profile-Set.css" media="screen">
+    <script class="u-script" type="text/javascript" src="/static/jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="/static/nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 4.0.3, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    
+    <meta charset="UTF-8">
+	<title>Account Settings UI Design</title>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+		"logo": "/static/images/Free_Sample_By_Wix.jfif"
+}</script>
+<style>
+  #customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+
+<meta name="theme-color" content="#478ac9">
+<meta property="og:title" content="Registation Details">
+<meta property="og:type" content="website">
+</head>
+<body class="u-body"><header class="u-clearfix u-header u-header" id="sec-1894"><div class="u-clearfix u-sheet u-sheet-1">
+    <a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="198" data-image-height="198">
+      <img src="/static/images/Free_Sample_By_Wix.jfif" class="u-logo-image u-logo-image-1">
+    </a>
+    <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+      <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+        <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+          <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</symbol>
+</defs></svg>
+        </a>
+      </div>
+      <div class="u-custom-menu u-nav-container">
+        <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/call/" style="padding: 10px 20px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/call/Profile-Settings/" target="_blank" style="padding: 10px 20px;">patient</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="/call/Patient-Login">login</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="/call/Patient-Registration/">Registration</a>
+</li></ul>
+</div>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/call/Doctor-Profile-Settings/" style="padding: 10px 20px;">Doctor</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-3"><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="/call/Doctor-Login/">Login</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="/call/Doctor-Registration/">Registration</a>
+</li></ul>
+</div>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="http://localhost:8000/admin" style="padding: 10px 20px;">Admin</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/call/Appointment/" style="padding: 10px 20px;">Book Appointment</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/call/Help-Page/" style="padding: 10px 20px;">Help</a>
+</li></ul>
+      </div>
+      <div class="u-custom-menu u-nav-container-collapse">
+        <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+          <div class="u-inner-container-layout u-sidenav-overflow">
+            <div class="u-menu-close"></div>
+            <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-4"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="" style="padding: 10px 20px;">Home</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/call/Doctor/" target="_blank" style="padding: 10px 20px;">patient</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-5"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/call/Patient-Login/">login</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/call/Patient-Registration/">Registration</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/call/Registation-Details/">Profile Settings</a>
+</li></ul>
+</div>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/call/Doctor/" style="padding: 10px 20px;">Doctor</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-6"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/call/Doctor-Login/">Login</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/call/Doctor-Registration/">Registration</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/call/Doctor-Registation-Details/">Profile Settings</a>
+</li></ul>
+</div>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="http://localhost:8000/admin" style="padding: 10px 20px;">Admin</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/call/Appointment/" style="padding: 10px 20px;">Book Appointment</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/call/Help-Page/" style="padding: 10px 20px;">Help</a>
+</li></ul>            </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+        <a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="198" data-image-height="198">
+        </a>
+      </div></header>
+    
+    	<section class="py-5 my-5">
+        <div class="container">
+          <h1 class="mb-5">Account Settings</h1>
+          <div class="bg-white shadow rounded-lg d-block d-sm-flex">
+            <div class="profile-tab-nav border-right">
+              <div class="p-4">
+                <div class="img-circle text-center mb-3">
+                  <img src="{{pat.image.url}}" alt="Image" class="shadow">
+                </div>
+                <h4 class="text-center">{{ pat.name }}</h4>
+              </div>
+              <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="account-tab" data-toggle="pill" href="#account" role="tab" aria-controls="account" aria-selected="true">
+                  <i class="fa fa-user-o text-center mr-1"></i> 
+                  Account
+                </a>
+                <a class="nav-link" id="password-tab" data-toggle="pill" href="#password" role="tab" aria-controls="password" aria-selected="false">
+                  <i class="fa fa-key text-center mr-1"></i> 
+                  Password
+                </a>
+                <a class="nav-link" id="security-tab" data-toggle="pill" href="#security" role="tab" aria-controls="security" aria-selected="false">
+                  <i class="fa fa-user text-center mr-1"></i> 
+                  Profile Picture
+                </a>
+                <a class="nav-link" id="application-tab" data-toggle="pill" href="#application" role="tab" aria-controls="application" aria-selected="false">
+                  <i class="fa fa-credit-card text-center mr-1"></i> 
+                  Credit Card
+                </a>
+                <a class="nav-link" id="easypaisa-tab" data-toggle="pill" href="#easypaisa" role="tab" aria-controls="easypaisa" aria-selected="false">
+                  <i class="fa fa-address-book text-center mr-1"></i> 
+                  Easy Paisa
+                </a>
+                <a class="nav-link" id="jazzcash-tab" data-toggle="pill" href="#jazzcash" role="tab" aria-controls="jazzcash" aria-selected="false">
+                  <i class="fa fa-address-book text-center mr-1"></i> 
+                  Jazz Cash
+                </a>
+                <a class="nav-link" id="appointment-tab" data-toggle="pill" href="#appointment" role="tab" aria-controls="appointment" aria-selected="false">
+                  <i class="fa fa-bell text-center mr-1"></i> 
+                  Appointments
+                </a>
+                <a class="nav-link" id="notification-tab"  href="deleteDoctor_session/" >
+                  <i class="fa fa-bullhorn text-center mr-1"></i> 
+                  Log Out
+                </a>
+              </div>
+            </div>
+            <div class="tab-content p-4 p-md-5" id="v-pills-tabContent">
+              <div class="tab-pane fade show active" id="account" role="tabpanel" aria-labelledby="account-tab">
+                <h3 class="mb-4">Account Settings</h3>
+                <div class="row">
+                  <div class="col-md-6">
+                    <form action="{% url 'changedoctorprofile' %}" method="post">
+                      {% csrf_token %}
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" name="name" class="form-control" value="{{ pat.name }}">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="text" name="email" class="form-control" value="{{ pat.Email }}">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                        <label>DOB</label>
+                        <input type="text" name="DOB" class="form-control" value="{{ pat.DOB.year  }}-{{ pat.DOB.month  }}-{{ pat.DOB.day  }}" >
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                        <label>Phone number</label>
+                        <input type="text" name="phone" class="form-control" value="{{ pat.phone }}">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                        <label>City</label>
+                        <input type="text" name="City" class="form-control" value="{{ pat.City }}">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                        <label>cnic</label>
+                        <input type="text" name="cnic" class="form-control" value="{{ pat.cnic }}">
+                    </div>
+                  </div>
+                  
+                </div>
+                <div>
+                  <input class="btn btn-primary" type="submit" value="Update">
+                  
+                </div>
+              </form>
+              </div>
+              <div class="tab-pane fade" id="password" role="tabpanel" aria-labelledby="password-tab">
+                <h3 class="mb-4">Password Settings</h3>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <form action="{% url 'changedoctorpassword' %}" method="post">
+                        {% csrf_token %}
+                        <label>Old password</label>
+                        <input type="password" name="oldpasword" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                        <label>New password</label>
+                        <input type="password" name="newpassword" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                        <label>Confirm new password</label>
+                        <input type="password" name="confirmPassword" class="form-control">
+                    </div>
+                  </div>
+                
+                </div>
+                <div>
+                  <input class="btn btn-primary" type="submit" value="Update">
+
+                </div>
+              </div>
+            </form>
+              <div class="tab-pane fade" id="security" role="tabpanel" aria-labelledby="security-tab">
+                <h3 class="mb-4">Profile Picture Settings</h3>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="img-circle text-center mb-3">
+                      <img src="{{pat.image.url}}" alt="Image" class="shadow" height="200px" width="200px">
+                    </div>
+                   
+                  </div>
+                  <form action="{% url 'changedoctorpicture' %}" method="post" enctype="multipart/form-data">
+                  {% csrf_token %}
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <div class="form-check">
+                        
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  {{upload_form.image}}
+          
+                  <br>
+                  <br>
+                  <input class="btn btn-primary" type="submit" value="Change">
+                </form>                  
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="application" role="tabpanel" aria-labelledby="application-tab">
+                <h3 class="mb-4">Credit Card Settings</h3>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <form action="{% url 'doctoraddeditcreditcard' %}" method="post" >
+                        {% csrf_token %}
+                            
+                      <div class="form-group">
+                        <label style="right: 80%;">Name</label> <br>
+                      <input type="text"  name="name" id="" value="{{ credit_form.name }}">
+
+                      </div>
+                      <div class="form-group">
+                      <label>Card Brand</label><br>
+                      <input type="text" name="cardBrand" id="" value="{{ credit_form.cardbrand }}">
+
+
+                      </div>
+                      <div class="form-group">
+                      <label>Card Number</label><br>
+                      <input type="number"  name="cardNumber" maxlength="16" id="" value="{{credit_form.cardno}}">
+
+                      </div>
+                      <div class="form-group">
+                      <label>CVV/CVV2</label><br>
+                      <input type="number" name="CVV" id="" maxlength="3" value="{{ credit_form.CVV }}">
+                      </div>
+
+                      <div class="form-group">
+                      <label>Expiry Date</label><br>
+                      <input type="date" name="expirydate" id="" value="{{ credit_form.expirydate.year  }}-{{ credit_form.expirydate.month  }}-{{ credit_form.expirydate.day  }}">
+                      </div>
+                      <div class="form-check">
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <input class="btn btn-primary" type="submit" value="Add/Update">
+                 </div>
+              </form>
+              
+              
+                </div>
+                <div class="tab-pane fade" id="easypaisa" role="tabpanel" aria-labelledby="easypaisa-tab">
+                  <h3 class="mb-4">Easy Paisa Settings</h3>
+                  <form action="{% url 'doctoraddediteasypaisa' %}" method="post" >
+                    {% csrf_token %}
+              
+                  <div class="form-group">
+                    <label style="right: 80%;">Name</label> <br>
+                    <input type="text"  name="name" id="" value="{{ easypaisa_form.name }}">          
+                  </div>
+                  <div class="form-group">
+                    <label style="right: 80%;">Phone</label> <br>
+                    <input type="text"  name="phone" id="" value="{{ easypaisa_form.phone }}">          
+                  </div>
+                  <div>
+                    <input class="btn btn-primary" type="submit" value="Add/Update">
+
+                  </div>
+                </form>
+                </div>
+
+            <div class="tab-pane fade" id="jazzcash" role="tabpanel" aria-labelledby="jazzcash-tab">
+              <h3 class="mb-4">Jazz Cash Settings</h3>
+              <form action="{% url 'doctoraddeditjazzcash' %}" method="post" >
+                {% csrf_token %}
+          
+              <div class="form-group">
+                <label style="right: 80%;">Name</label> <br>
+                <input type="text"  name="name" id="" value="{{ jazzcash_form.name }}">          
+              </div>
+              <div class="form-group">
+                <label style="right: 80%;">Phone</label> <br>
+                <input type="text"  name="phone" id="" value="{{ jazzcash_form.phone }}">          
+              </div>
+              <div>
+                <input class="btn btn-primary" type="submit" value="Add/Update">
+
+              </div>
+            </form>
+            </div>
+
+            <div class="tab-pane fade" id="appointment" role="tabpanel" aria-labelledby="appointment-tab">
+              <h3 class="mb-4">Appointment Settings</h3>
+              <table id="customers">
+                <tr>
+                  <th>Date</th>
+                  <th>Time</th>
+                  <th>Payment Method</th>
+                  <th>Appointment Status</th>
+                  <th></th>
+                </tr>
+                {% for obj in appointment_form %}
+                <tr>
+                  <td>{{ obj.date }}</td>
+                  <td>{{ obj.time}}</td>
+                  <td>{{  obj.paymentmethod}}</td>
+                  <td>{{  obj.appoointmentstatus}}</td>
+                  <td><a href="doctormakecall/{{obj.id}}" class="btn btn-warning" id = '{{obj.id}}'>Make Call</a>
+                  </td>
+                </tr>
+                {% endfor %}
+              </table>
+            </div>
+
+            
+            <div class="tab-pane fade" id="jazzcash" role="tabpanel" aria-labelledby="jazzcash-tab">
+              <h3 class="mb-4">Jazz Cash Settings</h3>
+              <form action="{% url 'doctoraddeditjazzcash' %}" method="post" >
+                {% csrf_token %}
+          
+              <div class="form-group">
+                <label style="right: 80%;">Name</label> <br>
+                <input type="text"  name="name" id="" value="{{ jazzcash_form.name }}">          
+              </div>
+              <div class="form-group">
+                <label style="right: 80%;">Phone</label> <br>
+                <input type="text"  name="phone" id="" value="{{ jazzcash_form.phone }}">          
+              </div>
+              <div>
+                <input class="btn btn-primary" type="submit" value="Add/Update">
+
+              </div>
+            </form>
+            </div>
+
+          </div>
+        </div>
+          
+      
+          
+            
+          </section>
+    
+    
+          <footer class="u-clearfix u-footer u-grey-80" id="sec-e072"><div class="u-clearfix u-sheet u-sheet-1">
+            <div class="u-clearfix u-expanded-width u-gutter-30 u-layout-wrap u-layout-wrap-1">
+              <div class="u-gutter-0 u-layout">
+                <div class="u-layout-row">
+                  <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-20 u-size-20-md u-layout-cell-1">
+                    <div class="u-container-layout u-valign-middle u-container-layout-1"><!--position-->
+                      <div data-position="" class="u-position u-position-1"><!--block-->
+                        <div class="u-block">
+                          <div class="u-block-container u-clearfix"><!--block_header-->
+                            <h5 class="u-block-header u-text u-text-1"><!--block_header_content-->Habib ur Rehman<!--/block_header_content--></h5><!--/block_header--><!--block_content-->
+                            <div class="u-block-content u-text"><!--block_content_content-->habib.gcu@hotmail.com<!--/block_content_content--></div><!--/block_content-->
+                          </div>
+                        </div><!--/block-->
+                      </div><!--/position-->
+                    </div>
+                  </div>
+                  <div class="u-align-left u-container-style u-layout-cell u-size-20 u-size-20-md u-layout-cell-2">
+                    <div class="u-container-layout u-container-layout-2"><!--position-->
+                      <div data-position="" class="u-position u-position-2"><!--block-->
+                        <div class="u-block">
+                          <div class="u-block-container u-clearfix"><!--block_header-->
+                            <h5 class="u-block-header u-text u-text-3"><!--block_header_content-->Hafiz Muhammad Sohaib<!--/block_header_content--></h5><!--/block_header--><!--block_content-->
+                            <div class="u-block-content u-text"><!--block_content_content-->sohaib@gmail.com<!--/block_content_content--></div><!--/block_content-->
+                          </div>
+                        </div><!--/block-->
+                      </div><!--/position-->
+                      <div class="u-social-icons u-spacing-10 u-social-icons-1">
+                        <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-a2ac"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-a2ac"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
+                        </a>
+                        <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-b327"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-b327"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg></span>
+                        </a>
+                        <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-de94"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-de94"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-20 u-size-20-md u-layout-cell-3">
+                    <div class="u-container-layout u-container-layout-3"><!--position-->
+                      <div data-position="" class="u-position u-position-3"><!--block-->
+                        <div class="u-block">
+                          <div class="u-block-container u-clearfix"><!--block_header-->
+                            <h5 class="u-block-header u-text u-text-5"><!--block_header_content-->Musham Ahmad Malik<!--/block_header_content--></h5><!--/block_header--><!--block_content-->
+                            <div class="u-block-content u-text"><!--block_content_content-->Musham@gmai.com<!--/block_content_content--></div><!--/block_content-->
+                          </div>
+                        </div><!--/block-->
+                      </div><!--/position-->
+                      <div class="u-social-icons u-spacing-10 u-social-icons-2">
+                        <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-23f9"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-23f9"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
+                        </a>
+                        <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-icon-5"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-2d80"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-2d80"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg></span>
+                        </a>
+                        <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-icon-6"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-e0e0"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-e0e0"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="u-social-icons u-spacing-10 u-social-icons-3">
+              <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-icon-7"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-35fd"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-35fd"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
+              </a>
+              <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-icon-8"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-c6b4"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-c6b4"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg></span>
+              </a>
+              <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-icon-9"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-6e97"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 112 112" x="0px" y="0px" id="svg-6e97"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
+              </a>
+            </div>
+          </div></footer>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+    
+    {%if error %}
+  <script>
+    alert('{{  error}}');
+  </script>
+        {%endif%}
+  </body>
+</html>
